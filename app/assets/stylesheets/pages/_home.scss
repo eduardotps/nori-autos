@@ -1,1 +1,24 @@
 // Specific CSS for your home-page
+
+.logo-home img {
+  max-width: 100%;
+  max-height: auto;
+}
+
+
+.whatsapp-fixo {
+  position: fixed;
+  bottom:10px;
+  right:10px;
+  z-index: 999;
+  }
+
+  .fa-whatsapp {
+    text-decoration: none;
+    
+    color: rgb(37, 211, 102);
+  }
+
+  a {
+    text-decoration: none;
+  }
