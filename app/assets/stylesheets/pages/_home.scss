@@ -1,1 +1,46 @@
 // Specific CSS for your home-page
+
+.logo-home img {
+  max-width: 100%;
+  max-height: auto;
+}
+
+.car-logo img {
+  max-height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.whatsapp-fixo {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 999;
+}
+
+.fa-whatsapp {
+  text-decoration: none;
+  font-size: 100px;
+  color: rgb(37, 211, 102);
+}
+
+a {
+  text-decoration: none;
+}
+
+
+// Smallest device
+@media (min-width: 100px) and (max-width: 575px) {
+  .fa-whatsapp {
+    font-size: 50px;
+  }
+}
+
+// Small to medium devices
+@media (min-width: 576px) and (max-width: 992px) {
+  .fa-whatsapp {
+    font-size: 75px;
+  }
+}

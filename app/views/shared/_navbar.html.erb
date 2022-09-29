@@ -1,0 +1,23 @@
+<div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
+  <div class="container-fluid">
+    <%= link_to "#", class: "navbar-brand" do %>
+      <%= image_tag "car2.png" %>
+    <% end %>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item dropdown">
+          <%= link_to "Contato", "#", class: "nav-link dropdown-toggle", id: "navbarDropdown", data: { bs_toggle: "dropdown" }, 'aria-haspopup': true, 'aria-expanded': false %>
+          <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+            <%= link_to "WhatsApp", "https://api.whatsapp.com/send?phone=41999350622", class: "dropdown-item" %>
+            <%= link_to "Instagram", "https://www.instagram.com/noriautosluxo/", class: "dropdown-item" %>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
