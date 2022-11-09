@@ -1,7 +1,8 @@
 .card-category-a {
   background-size: cover;
   background-position: center;
-  height: 180px;
+  height: 500px;
+  width: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -54,6 +55,3 @@
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
-
-
-
